@@ -1,0 +1,23 @@
+position,title,name,align,type,format,decimal,unit,min,max,section,sectiontitle,endsection,column,list,key,gridcolumn,parameter,report,color
+0,Fecha ,dagnclin_date,LEFT,TEXT,DATE,,,,,TRUE,Examen genital masculino,,1,,,,,,LightBlue
+1,Resultado,genital_result,LEFT,RADIO,LIST,,,,,,,,2,"normal, desarrollo puberal, hipotrofia genital, ",,,,,
+2,Pene,pene_hayaz,RIGHT,CHECK,LIST,,,,,,,,2,"Normal, Fimosis, Balanitis, Condiloma Peneano, Tumor peneano, Enf. Peyronie, otro hayazgo",,,,,
+3,Pene descripción,pene_descrip,LEFT,TEXT,TEXT,,,,,,,,1,,,,,,
+4,Uretra,uretra_decrip,LEFT,TEXT,TEXT,,,,,,,,1,,,,,,
+5,Hallazgo testicular,genital_descrip,LEFT,TEXT,TEXT,,,,,,,,1,,,,,,AliceBlue
+6,Testículos y anexos ,test_hayaz,LEFT,CHECK,LIST,,,,,,,,2,"Normales, Quiste epididimario, Quiste de cordón, Varicocele, Hidrocele testicular, Tumor testicular, Trauma testicular, Aumento de volumen escrotal, Monorquico testicular, Testículo retráctil, Testículo ectópico",,,,,
+7,Testículo lado,test_lado,LEFT,RADIO,LIST,,,,,,,,2,"derecho, izquierdo, bilateral",,,,,
+8,Hernia,hernia_inguinal,BLOCK,RADIO,LIST,,,,,,,,2,"se descarta al examen, inguinal, Inguino-escrotal ",,,,,
+9,Hernia lado,hernia_lado,BLOCK,RADIO,LIST,,,,,,,TRUE,2,"derecha, izquierda, bilateral",,,,,
+10,Resultado,rectal_result,LEFT,RADIO,LIST,,,,,TRUE,Tacto rectal,,1,"Normal, Anormal",,,,,LightBlue
+11,Inspección,rectal_insp,BLOCK,RADIO,LIST,,,,,,,,3,"Normal, Hemorroides, Condilomas",,,,,
+12,Tono esfínter anal,rectal_tono,BLOCK,RADIO,LIST,,,,,,,,3,"Normal, Hipertónico, Hipotónico, Flácido",,,,,
+13,Ampolla rectal,rectal_ampolla,BLOCK,RADIO,LIST,,,,,,,TRUE,3,"Normal, Fecaloma, Sangre",,,,,
+14,Tamaño,prostata_tamaño,BLOCK,LIST,LIST,,,,,TRUE,Próstata,,3,"Grado 1, Grado 1-2, Grado 2, Grado 2-3, Grado 3, Grado 3-4, Grado 4","1,1-2,2,2-3,3,3-4,4",,,,LightBlue
+15,Superficie,prostata_superf,BLOCK,RADIO,LIST,,,,,,,,3,"superficie lisa, superficie irregular","lisa,
+irregular",,,,
+16,Sensibilidad,prostata_dolor,BLOCK,RADIO,LIST,,,,,,,,3,"indolora, dolorosa un lóbulo, dolorosa ambos lóbulos",,,,,
+17,Consistencia,prostata_consist,LEFT,RADIO,LIST,,,,,,,,2,"normal, T2a, T2b, T2c, T3a, T3b, T4","T0,T2a, T2b, T2c, T3a, T3b, T4",,,,
+18,Sextante sospechoso,sext_sosp,RIGHT,CHECK,LIST,,,,,,,TRUE,2,"1 (basal derecho), 2 (tercio medio derecho), 3(apical derecho), 4 (basal izquierdo),5 (tercio medio izquierdo),  6 (apical izquierdo)","1,2,3,4,5,6",,,,
+19,Estadio Clinico T,estclin_t,LEFT,CHECK,LIST,,,,,TRUE,Estadio Clínico T(NM),TRUE,1,"T0,T2,T2a,T2b,T2c,T3,T3a,T3b,T4",,,,TRUE,LightBlue
+20,Descripción,descrip_exgenypros,LEFT,TEXTAREA,TEXT,,,,,TRUE,Observaciones,TRUE,1,,,,,,LightBlue
